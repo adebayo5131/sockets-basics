@@ -14,8 +14,11 @@ io.on('connection',function(socket){
 
         console.log("Message received: " + message.text);
 
-        //sending messages to everyone
-        socket.broadcast.emit('message', message);
+        /* //sending messages to everyone
+        socket.broadcast.emit('message', message); */
+
+        //SENDING TO EVERYONE INCLUDING THE SENDER
+        io.emit('message', message);
 
     });
 
