@@ -4,6 +4,7 @@ var socket = io();
 
 console.log(name + ' wants to join ' + room);
 
+
 // Update h1 tag
 jQuery('.room-title').text(room);
 
