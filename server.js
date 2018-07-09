@@ -57,7 +57,8 @@ io.on('connection', function (socket) {
 			name: 'System',
 			text: req.name + ' has joined!',
 			timestamp: moment().valueOf()
-		});
+        });
+        
 	});
 
 	socket.on('message', function (message) {
