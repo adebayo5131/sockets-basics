@@ -4,6 +4,11 @@ body{
 
   }
 
+h1{
+	   
+	margin: 24px 0;
+  }
+
 .image-container{
 	width:100%;
     background-image: url(/images/webBack.jpg) ;
@@ -58,3 +63,11 @@ div.icon-align{
 #footer a {
 		color: rgba(0,0,0,0.7);
 }
+
+
+/* formatting messages */
+
+.messages p{
+	margin: 6px 0;
+}
+
